@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" android:textDirection="ltr" android:layoutDirection="ltr"
+    tools:context=".IBabyActivity">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layoutDirection="ltr"
+        android:orientation="horizontal">
+
+        <TextView
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:textSize="102dp"
+            android:background="@color/colorBlue"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/tvDisplay"/>
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radioBtnMode"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:tooltipText="בחר תצורה">
+
+            <RadioButton android:id="@+id/digits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ספרות"/>
+
+            <RadioButton android:id="@+id/hebrew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="עברית"
+                android:checked="true"/>
+
+            <RadioButton android:id="@+id/english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="אנגלית"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser0"/>
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser1"/>
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser2"/>
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser3"/>
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser4"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layoutDirection="ltr" android:textDirection="ltr"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser5"/>
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser6"/>
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser7"/>
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser8"/>
+
+        <Button
+            style="@style/button_style"
+            android:background="@color/colorBrown"
+            android:id="@+id/btnUser9"/>
+
+    </LinearLayout>
+
+</LinearLayout>
